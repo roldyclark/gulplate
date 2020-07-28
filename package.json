@@ -34,7 +34,6 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001061",
-    "lodash": ">=4.17.19"
+    "caniuse-lite": "^1.0.30001061"
   }
 }
