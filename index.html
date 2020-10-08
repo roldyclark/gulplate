@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <!-- General meta tags needed-->
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- Needed for responsive design -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- If you want custom browser colors on mobile -->
-        <meta name="theme-color" content="#1843c1" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1">
+  <head>
+    <!-- General meta tags needed-->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Needed for responsive design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- If you want custom browser colors on mobile -->
+    <meta name="theme-color" content="#1843c1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1" />
 
-        <title></title>
+    <title></title>
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
-        
-        <!-- CSS File -->
-        <link rel="stylesheet" href="style.css?cb=1589644086682">
-    </head>
-    <body>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
 
-        <main>
-            <section class="content">
-                <h1>Gulplate</h1>
-                <h2>Gulp 4 boilerplate with Sass and Critical CSS</h2>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css?cb=1589730238859" />
+  </head>
 
-                <p>
-                    Here's a quick set-up guide:
-                </p>
+  <body>
 
-                <ul>
-                    <li>Clone Git repo</li>
-                    <li>Install by running "npm install" on the commmand line</li>
-                    <li>Run "gulp" on the command line.</li>
-                </ul>
+    <a id="menu-toggle" class="menu-toggle">
+      <svg viewBox="0 0 100 80" width="40" height="40">
+        <rect width="80" height="15"></rect>
+        <rect y="30" width="80" height="15"></rect>
+        <rect y="60" width="80" height="15"></rect>
+      </svg>
+    </a>
 
-            </section>
-            
-            <aside>
-                <h3>Project Info</h3>
-                <p>
-                    This is a starter front-end project which will compile SCSS and JS files using Gulp 4.
-                </p>
-            </aside>
-            
-        </main>
+    <nav id="mobile-nav" style="display: none;">
+      <a id="menu-toggle" class="exitMenu">
+      <ul>
+        <a href=""><li>GULPLATE</li></a>
+      </ul>
+      </a>
+    </nav>
 
-        <!-- JavaScript File -->
-        <script src="all.js?cb=1589644086682"></script>
-    </body>
+    <main>
+
+      <nav id="desktop-nav">
+        <ul>
+          <li>Home</li>
+        </ul>
+      </nav>
+
+      <section class="content">
+        <h1>Gulplate</h1>
+        <h2>Gulp 4 boilerplate with Sass and Critical CSS</h2>
+
+        <p>
+          Here's a quick set-up guide:
+        </p>
+
+        <ul>
+          <li>Clone Git repo</li>
+          <li>Install by running "npm install" on the commmand line</li>
+          <li>Run "gulp" on the command line.</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="all.js?cb=1589730238859"></script>
+  </body>
 </html>
